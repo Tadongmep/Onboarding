@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@bluebikv2/onboarding": ["onboarding/src/index.ts"],
+      "@bluebikv2/onboarding/additional": [
+        "onboarding/additional/src/index.ts"
+      ],
+      "@bluebikv2/onboarding/basic": ["onboarding/basic/src/index.ts"],
+      "@bluebikv2/onboarding/controller": [
+        "onboarding/controller/src/index.ts"
+      ],
+      "@bluebikv2/onboarding/purpose": ["onboarding/purpose/src/index.ts"],
+      "@bluebikv2/onboarding/redux": ["onboarding/redux/src/index.ts"],
+      "@bluebikv2/onboarding/redux/hook": [
+        "onboarding/redux/hook/src/index.ts"
+      ],
+      "@bluebikv2/onboarding/review": ["onboarding/review/src/index.ts"],
+      "@bluebikv2/onboarding/store": ["onboarding/store/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
